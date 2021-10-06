@@ -17,7 +17,7 @@ export default function Home () {
         </h1>
 
         <p className={styles.description}>
-          One in the river...
+          We&#39;re one in the river...
         </p>
         {/*
         <div className={styles.grid}>
