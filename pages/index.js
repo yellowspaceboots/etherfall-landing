@@ -25,15 +25,15 @@ export default function Home () {
           layout='fill'
           objectFit='cover'
           objectPosition='center'
-        >
-          <h1 className={styles.title}>
-            Etherfall
-          </h1>
+        />
+        <h1 className={styles.title}>
+          Etherfall
+        </h1>
 
-          <p className={styles.description}>
-            When you lose small mind<br />you free your life
-          </p>
-          {/*       <div className={styles.grid}>
+        <p className={styles.description}>
+          When you lose small mind<br />you free your life
+        </p>
+        {/*       <div className={styles.grid}>
           <div className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -56,7 +56,6 @@ export default function Home () {
             </p>
           </div>
         </div> */}
-        </Image>
       </main>
 
       {/*    <footer className={styles.footer}>
