@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home () {
@@ -9,6 +9,12 @@ export default function Home () {
         <title>Etherfall</title>
         <meta name='description' content='Landing page for Etherfall game' />
         <link rel='icon' href='/favicon.ico' />
+        <link
+          rel='preload'
+          href='/fonts/wabroye/Waybroye_014.otf'
+          as='font'
+          crossOrigin=''
+        />
       </Head>
 
       <main className={styles.main}>
@@ -17,54 +23,38 @@ export default function Home () {
         </h1>
 
         <p className={styles.description}>
-          We&#39;re one in the river...
+          When you lose small mind<br />you free your life
         </p>
-        {/*
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+        {/*       <div className={styles.grid}>
+          <div className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <div className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h2>Examples &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h2>Deploy &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
-        </div>
-        */}
+          </div>
+        </div> */}
       </main>
-      {/*
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-     */}
+
+      {/*    <footer className={styles.footer}>
+        <span className={styles.logo}>
+          <Image src='/CS Logo.png' alt='Etherfall Logo' width={250} height={75} />
+        </span>
+      </footer> */}
     </div>
   )
 }

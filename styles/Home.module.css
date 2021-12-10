@@ -6,7 +6,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
-  background-image: url("/The Dark Sorcerer.png");
+  background-image: url("/Lac Kivu.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,7 +16,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -26,7 +26,7 @@
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer a {
@@ -52,6 +52,9 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: Waybroye;
+  text-decoration: underline overline;
+  text-shadow: 2px 2px black;
 }
 
 .title,
@@ -63,6 +66,8 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  font-family: Waybroye;
+  text-shadow: 2px 2px black;
 }
 
 .code {
@@ -93,6 +98,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
+  background-color: #eaeaea;
 }
 
 .card:hover,
