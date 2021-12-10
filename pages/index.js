@@ -16,23 +16,22 @@ export default function Home () {
           crossOrigin=''
         />
       </Head>
-
+      <Image
+        className={styles.landingImage}
+        src='/Lac Kivu.png'
+        alt='background image'
+        layout='fill'
+        objectFit='cover'
+        objectPosition='center'
+      />
       <main className={styles.main}>
-        <Image
-          className={styles.landingImage}
-          src='/Lac Kivu.png'
-          alt='background image'
-          layout='fill'
-          objectFit='cover'
-          objectPosition='center'
-        />
         <h1 className={styles.title}>
           Etherfall
         </h1>
 
-        <p className={styles.description}>
-          When you lose small mind<br />you free your life
-        </p>
+        {/* <p className={styles.description}>
+          We are one in the flow<br />Many in the fall<br />And then when time ceases<br /> We are one again
+        </p> */}
         {/*       <div className={styles.grid}>
           <div className={styles.card}>
             <h2>Documentation &rarr;</h2>
