@@ -66,10 +66,10 @@ export default function Home () {
           The Neverending, and Calls of Plenty<br />Silence our fighting will
         </p>
         <p className={styles.description}>
-          Though we all seek, The Word of the Void<br />We can\'t hope to hear
+          Though we all seek, The Word of the Void<br />We can&apos;t hope to hear
         </p>
         <p className={styles.description}>
-          Until we are Lost, We are Found<br />We are One, and we\'re still here
+          Until we are Lost, We are Found<br />We are One, and we&apos;re still here
         </p>
         <p className={styles.description}>
           -The Lost Teachings of Ether, Book One
