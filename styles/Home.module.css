@@ -51,10 +51,11 @@
   color: #fafafa;
   margin: 0;
   line-height: 1.15;
-  font-size: 8rem;
-  font-family: Waybroye;
-  text-decoration: underline overline;
+  font-size: 12rem;
+  font-family: NightmarePills;
   text-shadow: 2px 2px black;
+  text-decoration: underline overline;
+  text-decoration-thickness: 10px;
 }
 
 .title,
@@ -64,9 +65,10 @@
 }
 
 .description {
+  margin: 12px;
   line-height: 1.5;
-  font-size: 2rem;
-  font-family: Waybroye;
+  font-size: 1.5rem;
+  font-family: NightmarePills;
   text-shadow: 2px 2px black;
 }
 

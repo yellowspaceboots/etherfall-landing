@@ -21,3 +21,30 @@ a {
   font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  font-family: "Eringobragh";
+  src: url("/fonts/eringobragh/eringobragh.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NightmarePills";
+  src: url("/fonts/nightmarepills/NightmarePills.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Marigoldwild";
+  src: url("/fonts/marigoldwild/Marigoldwild.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Symbols";
+  src: url("/fonts/symbols/Symbols.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "MenofNihilist";
+  src: url("/fonts/MenofNihilist/MenofNihilist.ttf");
+  font-style: normal;
+}

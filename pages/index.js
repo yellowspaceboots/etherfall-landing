@@ -15,6 +15,36 @@ export default function Home () {
           as='font'
           crossOrigin=''
         />
+        <link
+          rel='preload'
+          href='/fonts/eringobragh/eringobragh.ttf'
+          as='font'
+          crossOrigin=''
+        />
+        <link
+          rel='preload'
+          href='/fonts/nightmarepills/NightmarePills.ttf'
+          as='font'
+          crossOrigin=''
+        />
+        <link
+          rel='preload'
+          href='/fonts/marigoldwild/Marigoldwild.ttf'
+          as='font'
+          crossOrigin=''
+        />
+        <link
+          rel='preload'
+          href='/fonts/symbols/Symbols.ttf'
+          as='font'
+          crossOrigin=''
+        />
+        <link
+          rel='preload'
+          href='/fonts/MenofNihilist/MenofNihilist.ttf'
+          as='font'
+          crossOrigin=''
+        />
       </Head>
       <Image
         className={styles.landingImage}
@@ -29,9 +59,21 @@ export default function Home () {
           Etherfall
         </h1>
 
-        {/* <p className={styles.description}>
-          We are one in the flow<br />Many in the fall<br />And then when time ceases<br /> We are one again
-        </p> */}
+        <p className={styles.description}>
+          We flow as one, Fall as many<br />And many fall still
+        </p>
+        <p className={styles.description}>
+          The Neverending, and Calls of Plenty<br />Silence our fighting will
+        </p>
+        <p className={styles.description}>
+          Though we all seek, The Word of the Void<br />We can't hope to hear
+        </p>
+        <p className={styles.description}>
+          Until we are Lost, We are Found<br />We are One, and we're still here
+        </p>
+        <p className={styles.description}>
+          -The Lost Teachings of Ether, Book One
+        </p>
         {/*       <div className={styles.grid}>
           <div className={styles.card}>
             <h2>Documentation &rarr;</h2>
